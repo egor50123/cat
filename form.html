@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Кэт энерджи</title>
+  </head>
+  <body class="page__body">
+    <header class="page-header">
+      <div class="page__container">
+       <img class="page-header__icon" src="https://via.placeholder.com/150x150" alt="">
+       <a class="page-header__logo"  href="">
+          <img src="https://via.placeholder.com/150x150" alt="иконка" width="33" height="37">
+       </a>
+       <nav class="main-nav">
+          <button class="page-header__burger menu-open">
+            <span class="visually-hidden">Кнопка меню</span>
+          </button>
+          <ul class="main-nav__list site-list">
+           <li class="site-list__item"><a href="">Главная</a></li>
+            <li class="site-list__item"><a href="">Каталог продукции</a></li>
+            <li class="site-list__item"><a href="">Подбор программы</a></li>
+         </ul>
+       </nav>
+     </div>
+    </header>
+    <main class="page-form">
+      <h1 class="page-form__title">Подбор программы</h1>
+      <p class="subtitle">Заполните анкету, и мы подберем программу питания для вашего кота</p>
+      <form class="form">
+        <div class="form__main main">
+          <div class="main__item">
+            <label for="name" class="main__text">Имя <sup>*</sup></label>
+            <input id="name" class="main__input" type="text" name="name">
+          </div>
+          <div class="main__item">
+            <label  for="weight" class="main__text">Вес (кг) <sup>*</sup></label>
+            <input id="weight" class="main__input" type="text" name="weight">
+          </div>
+          <div class="main__item">
+            <label for="age" class="main__text">Возраст (лет)</label>
+            <input id="age" class="main__input" type="text" name="weight">
+          </div>
+        </div>
+        <div class="form__radio radio">
+          <div class="radio__item">
+            <input id="1" class="radio__button radio__button--active" type="radio" name="radio">
+            <label for="1" class="radio__text">Похудение</label>
+          </div>
+          <div class="radio__item">
+            <input id="2" class="radio__button" type="radio" name="radio">
+            <label for="2" class="radio__text">Набор массы</label>
+          </div>
+          <div class="radio__item">
+            <input id="3" class="radio__button" type="radio" name="radio">
+            <label for="3" class="radio__text"> Не знаю (нужен ваш совет)</label>
+          </div>
+        </div>
+        <div class="form__contacts contacts">
+          <h2 class="form__title title">Контактные данные<br>(владелец кота)</h2>
+          <div class="contacts__item">
+            <label for="email" class="contacts__text">Email:<sup>*</sup></label>
+            <input id="email" class="contacts__input" type="email" name="email">
+          </div>
+          <div class="contacts__item">
+            <label for="tel" class="contacts__text">Телефон:<sup>*</sup></label>
+            <input id="tel" class="contacts__input" type="tel" name="tel">
+          </div>
+        </div>
+        <div class="form__comment comment">
+          <h2 class="form__title title">Комментарий</h2>
+          <textarea class="comment__textarea" placeholder="Расскажите обо всех повАдках кота"></textarea>
+        </div>  
+        <div class="form__other-form other-form">
+          <h2 class="form__title title">Дополнительно</h2>
+          <div class="other-form__item">
+            <input id="01" class="other-form__button" type="checkbox" name="">
+            <label for="01" class="other-form__text">Сахарозаментель</label>
+          </div>
+          <div class="other-form__item">
+            <input id="02" class="other-form__button" type="checkbox" name="">
+            <label for="02" class="other-form__text">Вода</label>
+          </div>
+          <div class="other-form__item">
+            <input id="03" class="other-form__button" type="checkbox" name="">
+            <label for="03" class="other-form__text">Молоко</label>
+          </div>
+          <div class="other-form__item">
+            <input id="04" class="other-form__button" type="checkbox" name="">
+            <label for="04" class="other-form__text">Витамины</label>
+          </div>
+        </div>
+        <button class="button form__button" type="submit">Отправить заявку</button>
+        <small class="form__small-text small-text"><sup>*</sup>-Обязательные поля</small>
+      </form>
+
+      <footer class="page-footer">
+        <h2 class="visually-hidden">Как нас найти</h2>
+        <div class="page-footer__address address">
+          <p class="address__text"></p>
+          <address class="address__address"></address>
+        </div>
+        <div class="address__map">
+          <img src="https://via.placeholder.com/150x150">
+        </div>
+        <a class="page-footer__logo" href="">
+          <img src="https://via.placeholder.com/150x150">
+        </a>
+        <div class="page-footer__social social page__container">
+          <ul class="social-list">
+           <a class="social-list__vk" href="">
+            <img src="https://via.placeholder.com/150x150" width="30" height="30">
+           </a>
+           <a class="social-list__inst" href="">
+            <img src="https://via.placeholder.com/150x150" width="30" height="30">
+            </a>
+           <a class="social-listl__facebook" href="">
+            <img src="https://via.placeholder.com/150x150" width="30" height="30">
+          </a>
+         </ul>
+        </div>    
+        <div class="page-footer__contacts">
+          <a class="page-footer__link" href=""><span>HTML Academy</span></a>
+          <img class="page-footer__icon" src="https://via.placeholder.com/150x150">
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
